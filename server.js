@@ -2,8 +2,8 @@ const express = require("express");
 const app = express();
 
 const allowedKeys = new Set([
-    "REDACTED-UNIQUE-SERVER-KEY",   // replace this with your real key(s)
-    "ANOTHER-SERVER-KEY"
+    "SVAdmin"   // replace this with your real key(s)
+    
 ]);
 
 app.get("/api/check-license", (req, res) => {
